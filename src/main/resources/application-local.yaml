@@ -6,9 +6,9 @@ datasource:
 
 volume-path:
   # for windows
-  # persistent-volume-data: "C:\\Users\\mongh\\IdeaProjects\\volume\\local\\pv\\"
-  # pod-volume-data: "C:\\Users\\mongh\\IdeaProjects\\volume\\local\\pod\\"
+   persistent-volume-data: "C:\\Users\\mongh\\IdeaProjects\\volume\\local\\pv\\"
+   pod-volume-data: "C:\\Users\\mongh\\IdeaProjects\\volume\\local\\pod\\"
 
   # for mac
-  persistent-volume-data: "/Users/mongha/Documents/강의자료/쿠버네티스 어나더 클래스/Sprint 3/pv/"
-  pod-volume-data: "/Users/mongha/Documents/강의자료/쿠버네티스 어나더 클래스/Sprint 3/pod/"
+#  persistent-volume-data: "/Users/mongha/Documents/강의자료/쿠버네티스 어나더 클래스/Sprint 3/pv/"
+#  pod-volume-data: "/Users/mongha/Documents/강의자료/쿠버네티스 어나더 클래스/Sprint 3/pod/"
